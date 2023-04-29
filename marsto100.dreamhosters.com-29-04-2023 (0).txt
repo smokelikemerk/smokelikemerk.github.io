@@ -123,58 +123,54 @@ text-shadow: 1px 1px 1px #fff;
   text-align: center;
   font-size: 18px;
   }
+
   dy {
-	      width: 100%;
-		          height: 100%;
-				      background: #000;
-					          color: yellow;
-							    }
+    width: 100%;
+ height: 100%;
+   background: #000;
+     color: yellow;
+   }
     
   #linksbox {
 text-align: center;
-	  position: absolute;
-			    left: 10%;
-				        height: auto;
-						    width: fit-content;
-							       border:1px yellow solid;
-								           border-radius: 10px;
+  position: absolute;
+    left: 10%;
+  height: auto;
+    width: fit-content;
+   border:1px yellow solid;
+    border-radius: 10px;
 										       
-										     }
+    }
       
-      #hamburger {
-	        width: 20px;
-			    height: 15px;
-				        background: #fff;
+  #hamburger {
+ width: 20px;
+  height: 15px;
+     background: #fff;
 						  }
         
-        #thindiv {
-		    width: 20px;
-			        height: 2px;
-					    background-color: black;
-						    ;
-						        border:1px yellow solid;
-								    margin-bottom: 2px;
-									      //   transform: translateX(-400px);
-									      //  opacity: 50%;
-									        // transition: all 4s;
-										  }
-	  
-	  
-	.box {
-		         max-height: 0;
-				      //   width:600px;
-				               margin:auto;
-						                transition: max-height 1.4s ease-out;
-									         overflow: hidden;
-											          background: black;
-													        }
-	.tab:hover .box {
-		         max-height: 1200px;
-				          transition: max-height 1s ease-in;
-						        }
-	  
+ #thindiv {
+     width: 20px;
+     height: 2px;
+    background-color: black  ;
+  border:1px yellow solid;
+   margin-bottom: 2px;
+      //   transform: translateX(-400px);
+   //  opacity: 50%;
+   // transition: all 4s;
+.box {
+   max-height: 0;
+ //   width:600px;
+    margin:auto;
+       transition: max-height 1.4s ease-out;
+         overflow: hidden;
+   background: black;  
+ }
+.tab:hover .box {
+  max-height: 1200px;
+    transition: max-height 1s ease-in;
+						        
   
-  
+  }
   
   </style>
 </head>
